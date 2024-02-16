@@ -1,0 +1,216 @@
+
+Gurobi 10.0.2 (win64, Python) logging started Sat Feb  3 20:19:47 2024
+
+Set parameter Username
+Set parameter LogFile to value "C:\Users\ghadi\Downloads\Discrete Optimization Project - Gurobi- Instance 2\Discrete Optimization Project - Instance 2-Log File.log"
+Academic license - for non-commercial use only - expires 2024-07-07
+Set parameter Threads to value 1
+Set parameter Presolve to value 1
+Set parameter Method to value 0
+Set parameter TimeLimit to value 600
+Set parameter PreSparsify to value 1
+
+Gurobi 10.0.2 (win64, Python) logging started Sat Feb  3 23:20:59 2024
+
+Set parameter Username
+Set parameter LogFile to value "C:\Users\ghadi\Downloads\Discrete Optimization Project - Gurobi- Instance 2\Discrete Optimization Project - Instance 2-Log File.log"
+Academic license - for non-commercial use only - expires 2024-07-07
+Set parameter Threads to value 1
+Set parameter Presolve to value 1
+Set parameter Method to value 0
+Set parameter TimeLimit to value 600
+Set parameter PreSparsify to value 1
+Set parameter TimeLimit to value 2400
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i5-1235U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 1538862 rows, 167606 columns and 3016365 nonzeros
+Model fingerprint: 0x6cec309f
+Variable types: 0 continuous, 167606 integer (167606 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Sparsify removed 2592 nonzeros (2%)
+Presolve removed 1525104 rows and 163575 columns
+Presolve time: 3.34s
+Presolved: 13758 rows, 4031 columns, 133798 nonzeros
+Variable types: 0 continuous, 4031 integer (4013 binary)
+
+Root relaxation: objective 0.000000e+00, 8152 iterations, 1.13 seconds (3.02 work units)
+Total elapsed time = 7.38s
+Total elapsed time = 14.95s
+Total elapsed time = 17.02s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  347          -    0.00000      -     -   18s
+     0     0    0.00000    0  770          -    0.00000      -     -   20s
+     0     0    0.00000    0  743          -    0.00000      -     -   20s
+     0     0    0.00000    0  358          -    0.00000      -     -   29s
+     0     0    0.00000    0  416          -    0.00000      -     -   30s
+     0     0    0.00000    0  667          -    0.00000      -     -   36s
+     0     0    0.00000    0  634          -    0.00000      -     -   37s
+     0     0    0.00000    0  539          -    0.00000      -     -   44s
+     0     0    0.00000    0  644          -    0.00000      -     -   45s
+     0     0    0.00000    0  636          -    0.00000      -     -   50s
+     0     0    0.00000    0  636          -    0.00000      -     -   53s
+H    0     0                       0.0000000    0.00000  0.00%     -   54s
+     0     0    0.00000    0  636    0.00000    0.00000  0.00%     -   54s
+
+Cutting planes:
+  Clique: 47
+  Zero half: 5
+  RLT: 10
+
+Explored 1 nodes (151598 simplex iterations) in 54.97 seconds (132.91 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i5-1235U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 1538862 rows, 167606 columns and 3016365 nonzeros
+Model fingerprint: 0x6cec309f
+Variable types: 0 continuous, 167606 integer (167606 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolved: 13758 rows, 4031 columns, 133798 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Clique: 47
+  Zero half: 5
+  RLT: 10
+
+Explored 1 nodes (151598 simplex iterations) in 0.23 seconds (0.38 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.2 (win64, Python) logging started Sun Feb  4 00:00:26 2024
+
+Set parameter Username
+Set parameter LogFile to value "C:\Users\ghadi\Downloads\Discrete Optimization Project - Gurobi- Instance 2\Discrete Optimization Project - Instance 2-Log File.log"
+Academic license - for non-commercial use only - expires 2024-07-07
+Set parameter Threads to value 1
+Set parameter Presolve to value 1
+Set parameter Method to value 0
+Set parameter TimeLimit to value 600
+Set parameter PreSparsify to value 1
+Set parameter TimeLimit to value 1200
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i5-1235U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 1538862 rows, 167606 columns and 3016365 nonzeros
+Model fingerprint: 0x28585f9b
+Variable types: 0 continuous, 167606 integer (167606 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 677544 rows and 116745 columns (presolve time = 5s) ...
+Presolve removed 677888 rows and 116745 columns (presolve time = 10s) ...
+Presolve removed 677890 rows and 116745 columns (presolve time = 15s) ...
+Sparsify removed 1676 nonzeros (0%)
+Presolve removed 677890 rows and 116604 columns
+Presolve time: 16.62s
+Presolved: 860972 rows, 51002 columns, 2663793 nonzeros
+Variable types: 0 continuous, 51002 integer (50991 binary)
+Root relaxation presolved: 51002 rows, 911974 columns, 2714795 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   3.110000e+02     19s
+    5483    1.6924205e-02   0.000000e+00   7.685659e+04     20s
+   31223    5.2248486e-02   0.000000e+00   1.882273e+04     25s
+   61583    6.8602185e-02   0.000000e+00   1.121955e+04     30s
+   89963    7.5963238e-02   0.000000e+00   4.439667e+01     35s
+   96272   -0.0000000e+00   0.000000e+00   0.000000e+00     37s
+   96272   -0.0000000e+00   0.000000e+00   0.000000e+00     37s
+   96272    0.0000000e+00   0.000000e+00   0.000000e+00     37s
+
+Root relaxation: objective 0.000000e+00, 96272 iterations, 18.79 seconds (43.66 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0 1072          -    0.00000      -     -  103s
+     0     0    0.00000    0 1112          -    0.00000      -     -  335s
+     0     0    0.00000    0 1078          -    0.00000      -     -  466s
+     0     0    0.00000    0 1100          -    0.00000      -     -  752s
+     0     0    0.00000    0 1125          -    0.00000      -     -  913s
+     0     0    0.00000    0 1105          -    0.00000      -     - 1179s
+     0     0          -    0               -    0.00000      -     - 1200s
+
+Cutting planes:
+  Clique: 223
+  MIR: 3
+  Zero half: 4
+  RLT: 3700
+  BQP: 70
+
+Explored 1 nodes (219631 simplex iterations) in 1200.06 seconds (4153.52 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 0.000000000000e+00, gap -
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i5-1235U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 1 threads
+
+Optimize a model with 1538862 rows, 167606 columns and 3016365 nonzeros
+Model fingerprint: 0x28585f9b
+Variable types: 0 continuous, 167606 integer (167606 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolved: 860972 rows, 51002 columns, 2663793 nonzeros
+
+Continuing optimization...
+
+     0     0    0.00000    0 1061          -    0.00000      -     - 1295s
+     0     0    0.00000    0 1025          -    0.00000      -     - 1411s
+     0     0    0.00000    0 1025          -    0.00000      -     - 1524s
+H    0     0                      52.1041445    0.00000   100%     - 2087s
+     0     2    0.00000    0 1025   52.10414    0.00000   100%     - 2270s
+     1     3    0.00000    1  865   52.10414    0.00000   100% 23949 2334s
+
+Cutting planes:
+  Clique: 24
+  RLT: 369
+
+Explored 2 nodes (361961 simplex iterations) in 1200.13 seconds (2981.81 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 52.1041 
+
+Time limit reached
+Best objective 5.210414452710e+01, best bound 0.000000000000e+00, gap 100.0000%
